@@ -1,6 +1,6 @@
 # wallet_app
 
-![SignUp!](https://ibb.co/My0z7bHk)
+![SignUp!](https://ibb.co/PvjH29Zw)
 ![SignIn!](https://ibb.co/C31GgYps)
 ![Wallet!](https://ibb.co/BHK6pvXw)
 ![Chart!](https://ibb.co/PshwdQst)

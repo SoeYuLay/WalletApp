@@ -6,7 +6,9 @@
 ![Chart](https://ibb.co/HDJdk1Ww)
 ![Notification](https://ibb.co/9kZKzjB1)
 ![Settings](https://ibb.co/9HNgGqdz)
-![AddCard](https://ibb.co/fG85FMqg)
+![AddCard](https://i.ibb.co/8LhLFh2w/AddCard.png)
 ![CardDetail](https://ibb.co/W42LWQtY)
 ![ProfileSettings](https://ibb.co/hJBw4mNG)
 ![Transfer](https://ibb.co/gZJYs6F3)
+
+

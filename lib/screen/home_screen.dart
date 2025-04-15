@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 import 'package:wallet_app/screen/chart_screen.dart';
 import 'package:wallet_app/screen/notification_screen.dart';
 import 'package:wallet_app/screen/setting_screen.dart';

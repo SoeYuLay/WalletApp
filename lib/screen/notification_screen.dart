@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:wallet_app/screen/home_screen.dart';
 import 'package:wallet_app/widget/noti_card.dart';
 
 class NotificationScreen extends StatefulWidget {

@@ -1,16 +1,12 @@
 # wallet_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![SignUp!](https://ibb.co/My0z7bHk)
+![SignIn!](https://ibb.co/C31GgYps)
+![Wallet!](https://ibb.co/BHK6pvXw)
+![Chart!](https://ibb.co/PshwdQst)
+![Notification!](https://ibb.co/Wv3Y27CC)
+![Settings!](https://ibb.co/JFSpqyBL)
+![AddCard!](https://ibb.co/0RdSQBWZ)
+![CardDetail!](https://ibb.co/MyZvrTSS)
+![ProfileSettings!](https://ibb.co/wH7t89Q)
+![Transfer!](https://ibb.co/NQ7P6jw)

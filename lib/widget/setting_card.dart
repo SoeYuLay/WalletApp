@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:wallet_app/screen/profile_screen.dart';
 
 class SettingCard extends StatelessWidget {
   List<List<dynamic>> settingList = [
@@ -46,7 +47,15 @@ class SettingCard extends StatelessWidget {
                   shape: RoundedRectangleBorder(side: BorderSide.none),
                   leading: iconContainer(index),
                   title: Text(settingList[index][0],style: TextStyle(fontSize: 20)),
-                  trailing: Icon(Icons.arrow_forward_ios)
+                  trailing: GestureDetector(
+                    onTap: (){
+                      if(index==0){
+                        Navigator.of(context).push(
+                            MaterialPageRoute(builder: (context)=>ProfileScreen())
+                        );
+                      }
+                    },
+                      child: Icon(Icons.arrow_forward_ios)),
                 ),
               ),
             );

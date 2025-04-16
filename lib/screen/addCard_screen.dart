@@ -14,7 +14,11 @@ class AddcardScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Icon(Iconsax.arrow_circle_left,color: Colors.deepPurple,size: 35,),
+                GestureDetector(
+                  onTap: (){
+                    Navigator.pop(context);
+                  },
+                    child: Icon(Iconsax.arrow_circle_left,color: Colors.deepPurple,size: 35,)),
                 Center(child: Text('Add card',style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold))),
                 SizedBox(height: 30,),
                 Center(

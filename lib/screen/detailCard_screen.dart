@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:wallet_app/screen/home_screen.dart';
 
 class DetailcardScreen extends StatelessWidget {
   Map<String, String> cardData = {
@@ -22,10 +23,15 @@ class DetailcardScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Icon(
-                Iconsax.arrow_circle_left,
-                color: Colors.deepPurple,
-                size: 35,
+              GestureDetector(
+                onTap: (){
+                  Navigator.pop(context);
+                },
+                child: Icon(
+                  Iconsax.arrow_circle_left,
+                  color: Colors.deepPurple,
+                  size: 35,
+                ),
               ),
               Center(
                   child: Text('Detail card',

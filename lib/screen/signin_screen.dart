@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wallet_app/screen/home_screen.dart';
 import 'package:wallet_app/screen/signup_screen.dart';
 
 class SigninScreen extends StatefulWidget {
@@ -150,7 +151,10 @@ class _SigninScreenState extends State<SigninScreen> {
                         borderRadius: BorderRadius.circular(25.0),
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context)=>HomeScreen()));
+                    },
                     child: Text(
                       'Login',
                       style: TextStyle(fontSize: 20),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:wallet_app/screen/home_screen.dart';
 import 'package:wallet_app/widget/transfer_card.dart';
 
 class TransferScreen extends StatefulWidget {
@@ -24,10 +25,15 @@ class _TransferScreenState extends State<TransferScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Icon(
-              Iconsax.arrow_circle_left,
-              color: Colors.deepPurple,
-              size: 35,
+            GestureDetector(
+              onTap: (){
+                Navigator.pop(context);
+              },
+              child: Icon(
+                Iconsax.arrow_circle_left,
+                color: Colors.deepPurple,
+                size: 35,
+              ),
             ),
             Center(
               child: Text(

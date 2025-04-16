@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wallet_app/screen/detailCard_screen.dart';
 import 'package:wallet_app/widget/wallet_btns.dart';
 import 'package:wallet_app/widget/wallet_card.dart';
 import 'package:wallet_app/widget/wallet_transaction.dart';
@@ -44,7 +45,13 @@ class _WalletScreenState extends State<WalletScreen> {
                 ],
               ),
               SizedBox(height: 20),
-              WalletCard(),
+              GestureDetector(
+                onTap: (){
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context)=>DetailcardScreen())
+                  );
+                },
+                  child: WalletCard()),
               SizedBox(height: 20),
               WalletBtns(),
               SizedBox(height: 40),

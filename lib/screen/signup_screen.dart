@@ -165,7 +165,10 @@ class _SignupScreenState extends State<SignupScreen> {
                         borderRadius: BorderRadius.circular(25.0),
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context)=>SigninScreen()));
+                    },
                     child: Text(
                       'Register',
                       style: TextStyle(fontSize: 20),

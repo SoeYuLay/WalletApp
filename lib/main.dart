@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:wallet_app/screen/home_screen.dart';
+import 'package:wallet_app/screen/signin_screen.dart';
 import 'package:wallet_app/screen/transfer_screen.dart';
 
 void main() {
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: TransferScreen()
+      home: HomeScreen()
     );
   }
 }

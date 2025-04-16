@@ -22,3 +22,6 @@ This app focuses on clean layout, responsiveness, and reusable widgets.
 ![ProfileSettings](https://i.ibb.co/cc5cMdq1/Profile.png)
 ![Transfer](https://i.ibb.co/8DSxsdZX/Transfer.png)
 
+# UI Inspiration
+This UI was inspired by a Figma design from [https://www.figma.com/design/ErxNilQJddYQTnzr2A3wIq/Wallet-App--Community---Community-?node-id=36-196&p=f&t=qyyHuiC3eBzn2Dav-0].
+
